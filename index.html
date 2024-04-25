@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set karakter set dan viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman -->
+    <title>Konversi Suhu</title>
+    <!-- Tautan ke file CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Kontainer utama -->
+    <div class="container">
+        <!-- Judul -->
+        <div>
+            <h2>Kalkulator Suhu</h2>
+            <!-- Petunjuk -->
+            <h5>Masukkan suhu ke kotak di bawah, <br> lalu klik tombol Konversi.</h5>
+            <!-- Penutup tag h5 yang tidak diperlukan <h5> -->
+        </div>
+        <!-- Input suhu -->
+        <div class="input">
+            <div>
+                <!-- Label untuk input Celsius -->
+                <label for="input1">Celsius (°C)</label>
+                <br>
+                <!-- Input untuk Celsius -->
+                <input type="number" name="input1" id="input1">
+            </div>
+            <br>
+            <div>
+                <!-- Label untuk input Fahrenheit -->
+                <label for="input2">Fahrenheit (°F)</label>
+                <br>
+                <!-- Input untuk Fahrenheit -->
+                <input type="number" name="input2" id="input2">
+            </div>
+        </div>
+        <!-- Tombol-tombol -->
+        <div class="button">
+            <!-- Tombol untuk memulai konversi -->
+            <button type="button">Konversi</button>
+            <!-- Tombol untuk mereset input -->
+            <button type="button">Reset</button>
+            <!-- Tombol untuk menukar input -->
+            <button type="button">Reverse</button>
+        </div>
+        <!-- Cara Kalkulasi -->
+        <h3>Cara Kalkulasi</h3>
+        <!-- Hasil konversi akan ditampilkan di sini -->
+        <div class="result" id="result"></div>
+    </div>
+    <!-- Tautan ke file JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

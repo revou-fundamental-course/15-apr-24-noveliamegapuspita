@@ -1,0 +1,104 @@
+/* Setel ulang semua margin, padding, dan box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Atur latar belakang body dan posisi konten di tengah layar */
+body {
+    background-color: #f2f2f2; /* Warna latar belakang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Gaya tombol */
+button {
+    margin: 15px 10px; /* Margin atas dan bawah sedikit diperkecil */
+    padding: 8px 15px; /* Padding sedikit diperbesar */
+    background-color: #eb4747;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Menghapus border */
+    font-size: 14px; /* Sedikit diperbesar ukuran font */
+    font-family: 'Verdana', sans-serif; /* Font yang lebih umum */
+    transition: background-color 0.3s; /* Efek transisi ketika digunakan */
+}
+
+/* Efek hover untuk tombol */
+button:hover {
+    background-color: #cb1515; /* Warna latar belakang saat dihover */
+}
+
+/* Gaya untuk judul h3 */
+h3 {
+    margin: 20px 10px 10px; /* Margin bawah sedikit diperkecil */
+    font-family: 'Lucida Sans', sans-serif;
+    text-decoration: underline;
+    color: #eb4747;
+    font-size: 18px; /* Sedikit diperbesar ukuran font */
+}
+
+/* Gaya untuk judul h2 */
+h2 {
+    font-size: 32px; /* Sedikit diperkecil ukuran font */
+    font-family: 'Calibri', sans-serif;
+    margin: 10px 0;
+    color: #eb4747;
+}
+
+/* Gaya untuk ikon */
+i {
+    font-size: 36px; /* Sedikit diperkecil ukuran font */
+    color: #cb1515;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    max-width: 400px;
+    min-height: 420px;
+    background-image: linear-gradient(to bottom right, #e0e0e0, #ffffff); /* Gradien untuk latar belakang */
+    border-radius: 8px;
+    font-family: 'Cambria', serif;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Gaya untuk input suhu */
+.input {
+    display: grid;
+    gap: 10px;
+    width: 270px;
+    padding: 15px; /* Padding sedikit diperbesar */
+    border-radius: 5px;
+    margin: 15px auto; /* Dikentralkan dengan margin atas dan bawah */
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang sedikit transparan */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Gaya untuk label input */
+.input label {
+    font-size: 16px; /* Sedikit diperbesar ukuran font label */
+}
+
+/* Gaya untuk input */
+.input input {
+    padding: 8px; /* Padding sedikit diperbesar */
+    border: 1px solid #ccc; /* Warna border sedikit dipudar */
+    border-radius: 3px;
+}
+
+/* Gaya untuk hasil konversi */
+.result {
+    font-family: 'Cambria', serif;
+    white-space: pre-wrap;
+    padding: 10px; /* Padding sedikit diperbesar */
+    text-align: left; /* Teks hasil diletakkan di kiri */
+    margin-top: 15px; /* Margin atas diperbesar */
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang sedikit transparan */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
